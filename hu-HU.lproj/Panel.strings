@@ -23,10 +23,11 @@
 "Auto ( Recommended )" = "Automatikus (ajánlott)";
 "Customized" = "Egyedi";
 "If custom font size is used, the actual font size will depend on the base font size and css style." = "Egyedi betűméret esetén a tényleges betűméret az alap betűmérettől és a CSS stílustól függ.";
- "Left Panel" = "Bal oldali panel";
+"Left Panel" = "Bal oldali panel";
 "Show Outline Panel by Default" = "A bal oldali panel alapértelmezés szerint megjelenik";
 "Collapsible Outline on Left Panel" = "Összecsukható vázlat a bal oldali panelen";
 "Save without asking when\nswitch files on side panel" = "Kérdés nélküli mentés, amikor\naz oldalsó panelen másik fájlt választ";
+"Edited files will be saved without asking when switch files in left panel. \nWhen \"Ask to keep changes when closing documents\" is disabled in System Preference, this is always enabled." = "A szerkesztett fájlok kérdés nélkül mentésre kerülnek, amikor az oldalsó panelen másik fájlt választ. \nAmikor a Beállításokban a \"Dokumentum bezárásakor kérdezzen rá a változtatások megtartására\" ki van kapcsolva, akkor ez mindig be lesz kapcsolva.";
 "Language" = "Nyelv";
 "System Language" = "A rendszer nyelve";
 
@@ -45,7 +46,7 @@
 "Display source for simple blocks\n(including headings, etc.) on focus" = "A kurzor helyén lévő egyszerű blokkok\nforráskódjának megjelenítése (pl. a fejléceké, stb.)";
 "Default Copy Behavior" = "Másolás alapértelmezett módja";
 "Copy Markdown source as plain text" = "Markdown forráskód másolása egyszerű szövegként";
-"Typewriter Mode" = "Írógép mód";
+"Typewriter Mode" = "Írógép nézet";
 "Always keep caret in middle of screen\nwhen typewriter mode is enabled" = "Írógép módban a kurzor mindig\nlegyen a képernyő közepén";
 
 /* Markdown Panel */
@@ -63,9 +64,9 @@
 "Strict Mode" = "Szigorú mód";
 "(more strict to GFM spec)" = "(jobban igazodik a GFM szabványhoz)";
 "Heading Style" = "Fejléc stílus";
-"Unordered List" = "Rendezetlen lista";
-"Ordered List" = "Számozott lista";
-"Code Fences" = "Programkód dobozok";
+"Unordered List" = "Pontozott felsorolás";
+"Ordered List" = "Számozott felsorolás";
+"Code Fences" = "Programkód doboz";
 "Display line numbers for code fences" = "Sorok számozása a programkód dobozokban";
 "Math Blocks" = "Képlet dobozok";
 "Auto Numbering Math Equations" = "Matematikai képletek automatikus számozása";
@@ -112,8 +113,6 @@
 "Converting file using Pandoc. This may take some time." = "A Pandoc konvertálja a fájlt. Ez időt vesz igénybe.";
 "Exporting file using Pandoc. This may take some time." = "A Pandoc exportálja a fájlt. Ez időt vesz igénybe.";
 
-/* Upload via iPic */
-"Uploading Images via iPic..." = "Fájlok feltöltése iPic-kel...";
 "Uploading in progress…" = "A feltöltés folyamatban…";
 "Do not show this again" = "Ne jelenlen meg újra";
 
@@ -145,16 +144,14 @@
 "Trigger automatically" = "Automatikus aktiválás";
 "Default Line Ending" = "Alapértelmezett sorvégződés";
 "Line ending for new file" = "Új fájlok sorvégződése";
-"Spell Check" = "Helyesírás ellenőrzése";
-"(support US English only)" = "(csak az US English nyelv támogatott)";
-"Enable spell check" = "Helyesírás ellenőrzés engedélyezése";
+"Spell Check" = "Helyesírás-ellenőrzés";
 "Auto correct spelling" = "Helyesírás automatikus javítása";
 "System" = "Rendszer";
 "Privacy" = "Adatvédelem";
 "Developer" = "Fejlesztőknek";
 "Update" = "Frissítés";
-"Check Updates" = "Frissítés keresése";
-"Check updates automatically" = "Frissítések automatikus keresése";
+"Check Updates" = "Programfrissítés keresése";
+"Check updates automatically" = "Programfrissítés automatikus keresése";
 "Advanced Settings" = "Speciális beállítások";
 "Open Advanced Settings" = "Speciális beállítások megnyitása";
 "Reset Advanced Settings" = "Speciális beállítások visszaállítása";
@@ -173,7 +170,7 @@
 "The option `%@` must be enabled first to automatically upload images." = "A képek automatikus feltöltéséhez előbb engedélyezni kell a(z) `%@` beállítást.";
 "%@ is a file, not a directory" = "%@ nem mappa, hanem fájl";
 "Copy Images To…" = "Képek másolása ide…";
-"Typora are trying copy the newly inserted image to folder %@ according to your YAML Front Matter setting or global preferences. But the target folder does not exist, create it now?" = "Az újonnan beszúrt képet a Typora megpróbálta a YAML Front Matterben vagy a Beállításokban szereplő %@ mappába másolni, de az nem létezik. Létrehozzuk?";
+"Typora are trying copy the newly inserted image to folder %@ according to your YAML Front Matter setting or global preferences. But the target folder does not exist, create it now?" = "Az újonnan beszúrt képet a Typora megpróbálta a YAML Front Matterben vagy a Beállításokban található %@ mappába másolni, de az nem létezik. Létrehozzuk?";
 "Create Folder and Continue" = "Mappa létrehozása és folytatás";
 "Document must be saved first" = "Előbb menteni kell a dokumentumot";
 "Typora will copy newly inserted image to folder by selected relative path, so please save save the file first." = "Az újonnan beszúrt képet a Typora a relatív elérési út által kiválasztott mappába fogja másolni, ezért először mentse a fájlt.";
@@ -225,7 +222,7 @@
 "Apply above rules to online images" = "Fenti szabályok alkalmazása az online képekre";
 "Allow upload images automatically based on YAML settings" = "Képek automatikus feltöltésének engedélyezése a YAML beállítások alapján";
 
-"Learn More…" = "További információk…";
+"Learn More" = "További információ";
 "Whitespace / Line Break" = "Elválasztó karakterek / sortörés";
 "When Writing" = "Íráskor";
 "Export / Print" = "Exportálás / Nyomtatáskor";
@@ -238,8 +235,8 @@
 "Open new file" = "Üres fájl megnyitása";
 "Restore last closed folders" = "Utoljára bezárt mappák visszaállítása";
 "Restore last closed files and folders" = "Utoljára bezárt fájlok és mappák visszaállítása";
-"Open custom folder" = "Megadott mappa megnyitása";
-"Select custom folder" = "Mappa kiválasztása";
+"Open custom folder" = "Egyéni mappa megnyitása";
+"Select custom folder" = "Egyéni mappa választása";
 "This option may be overridden by \"Close windows when quitting an application\" in System Preferences" = "Ezt felülbírálhatja a Beállításokban lévő \"Kilépéskor az ablakok bezárása\" lehetőség";
 
 "Ignore" = "Mellőzés";
@@ -282,7 +279,6 @@
 "Auto" = "Automatikus";
 "words / min" = "szó/perc";
 "Reset to Default" = "Alapbeállítások";
-"Select custom folder" = "Egyéni mappa választása";
 "120  words/minute (Slow)" = "120  szó/perc (lassú)";
 "240  words/minute (Medium)" = "240  szó/perc (közepes)";
 "382  words/minute (Fast)" = "382  szó/perc (gyors)";
@@ -295,15 +291,15 @@
 "Downloading Updates…" = "Frissítések letöltése…";
 "Checking Updates…" = "Frissítések keresése…";
 "Check Update Failed" = "Frissítések keresése nem sikerült";
-"You are update to date!" = "Már a legfrissebb verziót használja!";
+"You're up to date!" = "Már a legfrissebb verziót használja!";
 "Latest version is $1, your version is $2" = "$1 a legújabb verzió, $2 a jelenleg használt verzió";
 "These options can also be changed under \"Edit→Whitespace and Line Breaks\" menu" = "Ezek a beállítások a \"Szerkesztés→Elválasztó karakterek és sortörések\" menüben is megváltoztathatók";
 "Auto escape image URL when insert" = "Kép beszúrásakor vezérlőkarakterek beiktatása az URL-be";
 "For example, if you insert a file at 'img/example file.png', it will become 'img/example%20file.png'. Enable this for better compatibility with other Markdown engines, or disable this for better readability." = "Például ha beszúrja a 'img/example file.png' képet, az automatikusan 'img/example%20file.png'-re cserélődik. Ez jobb kompatibilitást jelent más Markdown motorokkal, de a jobb olvashatóság érdekében ki is kapcsolható.";
-"Check updates automatically" = "Frissítések automatikus keresése";
+"Check updates automatically" = "Programfrissítés automatikus keresése";
 "Skip This Version" = "Ennek a verziónak a kihagyása";
 "Remind Me Later" = "Emlékeztessen később";
-"Download Update" = "Frissítés letöltése";
+"Download Update" = "Programfrissítés letöltése";
 "New version available." = "Új verzió érhető el.";
 
 "When copy / export as HTML (without style)" = "HTML (formázás nélkül) másolása vagy exportálása esetén";
@@ -314,8 +310,7 @@
 "Import function and several export formats requires Pandoc (≥%@) to be installed." = "Importálás és a legtöbb formátumba történő exportáláshoz szükséges a Pandoc (≥%@) telepítése.";
 "Do not show this message again" = "Ne mutassa ezt az üzenetet még egyszer";
 
-"Page Break Between Top Headings" = "Legfelső szintű szakaszok elválasztása oldaltöréssel";
-"You could set quote patterns in System Preferences → Keyboard → Text. If it is changed, Typora will need a restart to apply it." = "Az idézőjelpárok a Rendszerbeállítások → Billentyűzet → Szöveg menüben állíthatók. Megváltoztatás után a Typorát újra kell indítani.";
+"Page Break Between Top Headings" = "Legfelső szintű címsorok elválasztása oldaltöréssel";
 
 "Sorry, some error happened, current writing content has been copied to clipboard. You could report this to <hi@typora.io> to help us fix this error." = "Sajnos hiba lépett fel. A dokumentumot a vágólapra másoltuk. Ha bejelenti a hibát a <hi@typora.io> címen, azzal segít nekünk a kijavításában.";
 "Try Recovery" = "Helyreállítás megkísérlése";
@@ -359,3 +354,114 @@
 "Finished" = "Kész";
 
 "Typora will launch 3rd party app with file paths of all local images. The image uploader and cloud image storage will then have access to your local images. Are you sure to confinue?" = "A Typora alkalmazni fogja a harmadik fél által készített alkalmazást az összes helyben tárolt képre. Ezzel a képfeltöltő és a felhőtárhely hozzáférést szerez a dokumentum helyben tárolt képeihez. Szeretné folytatni?";
+
+"Export operation finished successfully." = "Az exportálás sikeresen befejeződött.";
+
+"Shortcut Keys" = "Billentyűparancsok";
+"Custom Shortcut Keys" = "Egyéni billentyűparancsok";
+
+"Theme" = "Téma";
+"Light Theme" = "Világos téma";
+"Dark Theme" = "Sötét téma";
+"Use separate theme in dark mode" = "Sötét módban eltérő téma használata";
+"Supported on macOS ≥ 10.15 or Windows 10 ≥ 1903" = "macOS ≥ 10.15 és Windows 10 ≥ 1903 verzión támogatott";
+"Convert -- to – (en dash), and --- to — (em dash)" = "-- legyen – (gondolatjel) és --- legyen — (nagykötőjel)";
+"Convert -- and --- to — (em dash)" = "-- és --- egyaránt legyen — (nagykötőjel)";
+"You could set quote patterns in System Preferences → Keyboard → Text. If it is changed, Typora will need a restart to apply it." = "Az idézőjelpárok a Rendszerbeállítások → Billentyűzet → Szöveg menüben állíthatók. Megváltoztatás után a Typorát újra kell indítani.";
+
+
+"Paper Size" = "Papírméret";
+"US Letter" = "US Letter";
+"US Legal" = "US Legal";
+"Tabloid" = "Tabloid";
+"Page Break" = "Oldaltörés";
+"Page Break Between Top Headings" = "Legfelső szintű címsorok elválasztása oldaltöréssel";
+"Header" = "Fejléc";
+"Footer" = "Lábléc";
+"Author" = "Szerző";
+"Append in <head />" = "Hozzáfűzés <head />-hez";
+"Append in <body />" = "Hozzáfűzés <body />-hoz";
+"Include Outline Sidebar" = "Áttekintő oldalsávval együtt";
+"Width" = "Szélesség";
+"Command" = "Parancs";
+"Show Save File Dialog" = "Fájl mentése ablak mutatása";
+"File Extensions for Export" = "File Extensions for Export";
+"Arguments" = "Argumentumok";
+"Extra Arguments" = "További argumentumok";
+"LaTeX Engine" = "LaTeX motor";
+"Template" = "Sablon";
+"Empty" = "Üres";
+"Style Reference" = "Stílushivatkozás";
+"Custom CSS" = "Egyéni CSS";
+"Chapter Level" = "Fejezet szint";
+"Default Folder for Exported File" = "Exportált fájl alapértelmezett könyvtára";
+"Same folder with current file" = "Jelenlegi fájl könyvtára";
+"Custom location" = "Egyéni könyvtár";
+"(Auto Detect)" = "(Automatikus felismerés)";
+"After Export" = "Exportálás után";
+"Open exported file location" = "Exportált fájl helyének megnyitása";
+"Open exported file" = "Exportált fájl megnyitása";
+"Custom" = "Egyéni";
+"None" = "Nincs";
+"Default" = "Alapértelmezett";
+"Margin" = "Margó";
+"Margin Left" = "Bal margó";
+"Margin Right" = "Jobb margó";
+"Margin Top" = "Felsó margó";
+"Margin Bottom" = "Alsó margó";
+"Width x Height" = "Szélesség x Magasság";
+"Add From a Template" = "Hozzáadás sablonból";
+"Delete this export option ?" = "Törli ezt az exportálási beállítást?";
+"Add" = "Hozzáadás";
+"Delete" = "Törlés";
+"Rename" = "Átnevezés";
+"Move Down" = "Lejjebb";
+"Move Up" = "Feljebb";
+"Pandoc Path" = "Pandoc útvonala";
+"Select" = "Kiválasztás";
+"Target Format" = "Cél formátum";
+"auto detect based on target file path" = "automatikus felismerés a cél fájl útvonala alapján";
+"Target File Extensions (separate by whitespace)" = "Cél fájl kiterjesztések (szóközökkel elválasztva)";
+"e.g: .text .asciidoc or leave this empty" = "pl.: .text .asciidoc vagy hagyja üresen";
+"Raw Type" = "Nyers típus";
+"Auto" = "Automatikus";
+"Show Save File Dialog" = "Fájl mentése ablak mutatása";
+"Do not popup save file dialog" = "Ne mutassa a Fájl mentése ablakot";
+"Select file path to save" = "Válassza ki a fájl útvonalát a mentéshez";
+"Select folder path to save" = "Válassza ki a könyvtár útvonalát a mentéshez";
+"PDF Engine" = "PDF motor";
+"Show command output" = "Parancs kimenetének mutatása";
+
+"\"Export and Overwrite with Previous\" will overwrite file at %@, would you continue?" = "Az \"Exportálás és felülírás a legutóbbival\" felül fogja írni a %@ fájlt. Folytatja?";
+"Command Arguments:" = "Parancs argumentumai:";
+"This beta version of Typora is expired, please download and install a newer version." = "A Typora ezen béta verziója lejárt. Töltsön le és telepítsen egy újabb verziót.";
+"Current Theme" = "Jelenlegi téma";
+"After Export" = "Exportálás után";
+"Run command" = "Parancs futtatása";
+"Run command after export failed" = "Parancs futtatása ha az exportálás nem sikerült";
+"Read and overwrite export settings from YAML front matters" = "Exportálási beállítások olvasása és felülírása a YAML front matterben";
+"Append Extra Content (HTML)" = "További tartalom hozzáfűzése (HTML)";
+"Change this option to specify a separated theme for export." = "Exportáláshoz külön téma megadásához változtassa meg ezt a beállítást.";
+"Dark theme is not supported." = "A sötét téma nem támogatott.";
+
+"Markdown Variants" = "Markdown változatok";
+"Original Unextended Markdown" = "Kiegészítések nélküli, eredeti Markdown";
+"CommonMark with many pandoc extensions" = "CommonMark, számos pandoc kiegészítéssel";
+"Line Wrap" = "Sorok tördelése";
+"Hard line wrap" = "Fix sortörés";
+"Text Column Width" = "Szöveg oszlopszélessége";
+"Auto (based on current OS)" = "Automatikus (mostani operációs rendszertől függ)";
+"Indent" = "Behúzás";
+"Preserve tabs" = "Tabulátorok megőrzése";
+"2 spaces per tab" = "Tabulátoronként 2 szóköz";
+"3 spaces per tab" = "Tabulátoronként 3 szóköz";
+"4 spaces per tab" = "Tabulátoronként 4 szóköz";
+"Unicode Characters" = "Unicode karakterek";
+"Use only ASCII characters in output" = "Kimenet csak ASCII karaktereket tartalmazzon";
+"Use reference-style links rather than inline links" = "Szövegbe ágyazott helyett lábjegyzet szerű linkek használata";
+"Footnotes and References Location" = "Lábjegyzetek elhelyezkedése";
+"End of document" = "Dokumentum végén";
+"End of current (top-level) block" = "Jelenlegi (felső szintű) blokk végén";
+"End of current section" = "Jelenlegi kijelölés végén";
+"Convert TeX formulas to web images" = "TeX képletek web képekké alakítása";
+"Image Format" = "Képformátum";
